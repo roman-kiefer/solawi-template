@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/solawi.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solawi Template</title>
+    <script type="module" src="/template_onload.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="shadow bg-base-200 drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+        <div class="flex flex-col drawer-content">
+          <nav class="w-full navbar p-0 bg-base-300">
+            <div class="navbar-start">
+              <a class="logo px-2">
+                <image src="./images/solawi.svg" class="block w-12 h-12" />
+              </a>
+              <!--
+
+                <div>
+                  <image src="./images/wahlbacherhof.svg" class="block h-10" />
+                </div>
+              -->
+
+              <div>
+                <div class="text-xl text-center">Wahlbacherhof</div>
+                <div class="text-xs italic text-center">Solidarische Landwirtschaft</div>
+              </div>
+            </div>
+
+            <div class="navbar-center hidden lg:flex h-full">
+              <div class="flex items-stretch">
+                <a class="btn btn-ghost"> Button </a>
+                <div class="dropdown">
+                  <div tabindex="0" class="btn btn-ghost">Dropdown</div>
+                  <ul tabindex="0" class="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+                    <li>
+                      <a>Item 1</a>
+                    </li>
+                    <li>
+                      <a>Item 2</a>
+                      <ul>
+                        <li>
+                          <a>Item 1</a>
+                        </li>
+                        <li>
+                          <a>Item 2</a>
+                        </li>
+                        <li>
+                          <a>Item 3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a>Item 3</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="navbar-end">
+              <image id="colorModeImg" src="./images/color.svg" class="block w-8 h-8" aria-label="color mode toggle button" />
+              <button id="toggleModeBtn" class="btn btn-outline btn-xs" onclick="themeModeToggle(this)">color</button>
+              <div class="lg:hidden">
+                <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </nav>
+
+          <section class="content">
+            <div class="hero min-h-52" style="background-image: url('./images/tomaten.jpg')">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="text-center hero-content text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                  <p class="mb-5">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                    repudiandae et a id nisi.
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <article class="bg-primary p-8">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est quis ipsa. Corporis quaerat, incidunt laudantium beatae
+                aspernatur at optio inventore deleniti aliquam illo impedit architecto quas! Fuga, esse nesciunt. Ut consequatur sunt magnam
+                eveniet numquam? Suscipit natus molestias, magnam obcaecati voluptatum, maxime dicta porro odit ipsum optio laudantium
+                repudiandae laborum accusamus delectus harum sit! Consectetur ratione animi culpa corporis. Aspernatur accusamus inventore,
+                minima sunt vero et aliquid velit fuga? Dolore fugiat hic eum repellendus culpa earum odit, sit perferendis molestias
+                voluptas voluptatum, eius nesciunt laboriosam excepturi magnam atque! Numquam. Doloribus tenetur mollitia odio sit error eos
+                rerum alias consequatur nulla dicta ut, laboriosam vel quibusdam excepturi soluta tempora iure, et eligendi hic enim ex
+                voluptatem maiores. Rem, neque officia. Vel, aspernatur? Voluptatum deleniti quisquam, sapiente numquam blanditiis quod quis
+                vero minima animi. Enim dolorem ratione quisquam reiciendis inventore, necessitatibus eaque cupiditate? Inventore pariatur
+                sapiente nisi veritatis ut cum possimus?
+              </p>
+
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est quis ipsa. Corporis quaerat, incidunt laudantium beatae
+                aspernatur at optio inventore deleniti aliquam illo impedit architecto quas! Fuga, esse nesciunt. Ut consequatur sunt magnam
+                eveniet numquam? Suscipit natus molestias, magnam obcaecati voluptatum, maxime dicta porro odit ipsum optio laudantium
+                repudiandae laborum accusamus delectus harum sit! Consectetur ratione animi culpa corporis. Aspernatur accusamus inventore,
+                minima sunt vero et aliquid velit fuga? Dolore fugiat hic eum repellendus culpa earum odit, sit perferendis molestias
+                voluptas voluptatum, eius nesciunt laboriosam excepturi magnam atque! Numquam. Doloribus tenetur mollitia odio sit error eos
+                rerum alias consequatur nulla dicta ut, laboriosam vel quibusdam excepturi soluta tempora iure, et eligendi hic enim ex
+                voluptatem maiores. Rem, neque officia. Vel, aspernatur? Voluptatum deleniti quisquam, sapiente numquam blanditiis quod quis
+                vero minima animi. Enim dolorem ratione quisquam reiciendis inventore, necessitatibus eaque cupiditate? Inventore pariatur
+                sapiente nisi veritatis ut cum possimus?
+              </p>
+            </article>
+            <article class="flex flex-wrap justify-center p-8">
+              <img src="https://picsum.photos/id/1005/200/200" class="border-8 border-primary" />
+              <img src="https://picsum.photos/id/1006/200/200" class="rounded-full border-8 border-primary" />
+              <img src="https://picsum.photos/id/1008/200/200" class="mask mask-hexagon" />
+              <img src="https://picsum.photos/id/1009/200/200" class="mask mask-hexagon" />
+            </article>
+            <article class="bg-secondary p-8">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est quis ipsa. Corporis quaerat, incidunt laudantium beatae
+                aspernatur at optio inventore deleniti aliquam illo impedit architecto quas! Fuga, esse nesciunt. Ut consequatur sunt magnam
+                eveniet numquam? Suscipit natus molestias, magnam obcaecati voluptatum, maxime dicta porro odit ipsum optio laudantium
+                repudiandae laborum accusamus delectus harum sit! Consectetur ratione animi culpa corporis. Aspernatur accusamus inventore,
+                minima sunt vero et aliquid velit fuga? Dolore fugiat hic eum repellendus culpa earum odit, sit perferendis molestias
+                voluptas voluptatum, eius nesciunt laboriosam excepturi magnam atque! Numquam. Doloribus tenetur mollitia odio sit error eos
+                rerum alias consequatur nulla dicta ut, laboriosam vel quibusdam excepturi soluta tempora iure, et eligendi hic enim ex
+                voluptatem maiores. Rem, neque officia. Vel, aspernatur? Voluptatum deleniti quisquam, sapiente numquam blanditiis quod quis
+                vero minima animi. Enim dolorem ratione quisquam reiciendis inventore, necessitatibus eaque cupiditate? Inventore pariatur
+                sapiente nisi veritatis ut cum possimus?
+              </p>
+            </article>
+            <article class="p-8">
+              <div class="w-full carousel">
+                <div id="slide1" class="relative w-full pt-20 carousel-item">
+                  <img src="https://picsum.photos/id/500/800/300" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="/index.html#slide4" class="btn btn-circle">❮</a>
+                    <a href="/index.html#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="relative w-full pt-20 carousel-item">
+                  <img src="https://picsum.photos/id/501/800/300" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="/index.html#slide1" class="btn btn-circle">❮</a>
+                    <a href="/index.html#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="relative w-full pt-20 carousel-item">
+                  <img src="https://picsum.photos/id/502/800/300" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="/index.html#slide2" class="btn btn-circle">❮</a>
+                    <a href="/index.html#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="relative w-full pt-20 carousel-item">
+                  <img src="https://picsum.photos/id/503/800/300" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="/index.html#slide3" class="btn btn-circle">❮</a>
+                    <a href="/index.html#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="p-8">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est quis ipsa. Corporis quaerat, incidunt laudantium beatae
+                aspernatur at optio inventore deleniti aliquam illo impedit architecto quas! Fuga, esse nesciunt. Ut consequatur sunt magnam
+                eveniet numquam? Suscipit natus molestias, magnam obcaecati voluptatum, maxime dicta porro odit ipsum optio laudantium
+                repudiandae laborum accusamus delectus harum sit! Consectetur ratione animi culpa corporis. Aspernatur accusamus inventore,
+                minima sunt vero et aliquid velit fuga? Dolore fugiat hic eum repellendus culpa earum odit, sit perferendis molestias
+                voluptas voluptatum, eius nesciunt laboriosam excepturi magnam atque! Numquam. Doloribus tenetur mollitia odio sit error eos
+                rerum alias consequatur nulla dicta ut, laboriosam vel quibusdam excepturi soluta tempora iure, et eligendi hic enim ex
+                voluptatem maiores. Rem, neque officia. Vel, aspernatur? Voluptatum deleniti quisquam, sapiente numquam blanditiis quod quis
+                vero minima animi. Enim dolorem ratione quisquam reiciendis inventore, necessitatibus eaque cupiditate? Inventore pariatur
+                sapiente nisi veritatis ut cum possimus?
+              </p>
+            </article>
+          </section>
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer-3" class="drawer-overlay"></label>
+          <ul class="p-4 overflow-y-auto menu w-80 bg-base-100">
+            <li>
+              <a>Button</a>
+            </li>
+            <li>
+              <a>Dropdown</a>
+              <ul>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                  <ul>
+                    <li>
+                      <a>Item 1</a>
+                    </li>
+                    <li>
+                      <a>Item 2</a>
+                    </li>
+                    <li>
+                      <a>Item 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a>Item 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script defer type="module" src="/template.js"></script>
+  </body>
+</html>
