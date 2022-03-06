@@ -10,3 +10,9 @@ template for the solawi theme
 - [ ] check accessibility
 - [ ] comment twig code for solawi-theme
 - [ ] additional components
+
+## install, develop & build
+
+npm install
+npm run dev
+npm run build
